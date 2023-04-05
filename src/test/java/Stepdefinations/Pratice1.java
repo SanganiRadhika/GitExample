@@ -48,6 +48,7 @@ public class Pratice1 {
 		 System.out.println("Address of the candidate "+Address);
 		 System.out.println("emailid of the candidate "+emailid);
 		 System.out.println("This is the Git Example from the cloning project");
+		 System.out.println("This is the example for real person done the changes in code");
 		 
 	 }
 
