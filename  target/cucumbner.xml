@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.915" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Search and Place the Order for Products" name="Search the product in both home and offerpage" time="11.77">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;To[mato]&gt; but was:&lt;To[]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<To[mato]> but was:<To[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at Stepdefinations.OfferingPage.validate_the_both_both_product_names(OfferingPage.java:56)
+	at ?.validate the both both product names(file:///E:/selemiumpratice/Cucumber/src/test/resources/features/GreenCartVerification.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is on Greencart home page........................................passed
+When User searched for the "Tom" product in the Home page...................passed
+Then User searched the "Tom" product name on the offer page.................passed
+And validate the both both product names....................................failed
+]]></system-out>
+</testcase>
+</testsuite>
